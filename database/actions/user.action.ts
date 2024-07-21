@@ -7,6 +7,7 @@ import CV from "../models/cv.model";
 import { revalidatePath } from "next/cache";
 import { UpdateUserParams } from "@/types";
 
+
 export async function createUser(user: any) {
     try {
         await connectToDataBase();
